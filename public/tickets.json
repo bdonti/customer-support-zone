@@ -14,7 +14,7 @@
     "description": "Customer claims they were double-charged for the premium subscription seat additions.",
     "customer": "Jane Smith",
     "priority": "Medium",
-    "status": "Pending",
+    "status": "Open",
     "createdAt": "01-03-2026"
   },
   {
@@ -32,7 +32,7 @@
     "description": "Customer has requested a reset link three times; checked spam folder.",
     "customer": "Robert Chen",
     "priority": "High",
-    "status": "Pending",
+    "status": "Open",
     "createdAt": "02-03-2026"
   },
   {
@@ -41,7 +41,7 @@
     "description": "Need to change the delivery address for order #44901 before it leaves the warehouse.",
     "customer": "Sarah Jenkins",
     "priority": "Medium",
-    "status": "Pending",
+    "status": "Open",
     "createdAt": "02-03-2026"
   },
   {
@@ -50,7 +50,7 @@
     "description": "App closes immediately after the splash screen on iOS 17.4.",
     "customer": "Mobile First Inc",
     "priority": "High",
-    "status": "Pending",
+    "status": "Open",
     "createdAt": "03-03-2026"
   },
   {
@@ -68,7 +68,7 @@
     "description": "Researcher found a potential XSS vulnerability on the user profile settings page.",
     "customer": "Anonymous Researcher",
     "priority": "High",
-    "status": "Pending",
+    "status": "Open",
     "createdAt": "04-03-2026"
   },
   {
@@ -104,7 +104,7 @@
     "description": "Uploaded ID documents 48 hours ago but status is still 'Pending Verification'.",
     "customer": "Anita Desai",
     "priority": "Medium",
-    "status": "Pending",
+    "status": "Open",
     "createdAt": "04-03-2026"
   },
   {
@@ -131,7 +131,7 @@
     "description": "Users report receiving system notifications 30 minutes after the actual event.",
     "customer": "EventBrightly",
     "priority": "High",
-    "status": "Pending",
+    "status": "Open",
     "createdAt": "04-03-2026"
   }
 ]
