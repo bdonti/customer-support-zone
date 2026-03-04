@@ -13,13 +13,12 @@ const Navbar = () => {
               viewBox="0 0 24 24"
               stroke="currentColor"
             >
-              {" "}
               <path
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 stroke-width="2"
                 d="M4 6h16M4 12h8m-8 6h16"
-              />{" "}
+              />
             </svg>
           </div>
           <ul
@@ -33,13 +32,13 @@ const Navbar = () => {
               <a>FAQ</a>
             </li>
             <li>
-                <a>Changelog</a>
+              <a>Changelog</a>
             </li>
             <li>
-                <a>Download</a>
+              <a>Download</a>
             </li>
             <li>
-                <a>Contact</a>
+              <a>Contact</a>
             </li>
           </ul>
         </div>
@@ -55,17 +54,19 @@ const Navbar = () => {
               <a>FAQ</a>
             </li>
             <li>
-                <a>Changelog</a>
+              <a>Changelog</a>
             </li>
             <li>
-                <a>Download</a>
+              <a>Download</a>
             </li>
             <li>
-                <a>Contact</a>
+              <a>Contact</a>
             </li>
           </ul>
         </div>
-        <a class="btn bg-gradient-to-r from-[#5B3DF5] to-[#8B6CFF] text-white px-6 py-3 rounded-lg"> <span className="pr-2">+</span> New Ticket</a>
+        <a class="btn bg-gradient-to-r from-[#5B3DF5] to-[#8B6CFF] text-white px-6 py-3 rounded-lg">
+          <span className="pr-2">+</span> New Ticket
+        </a>
       </div>
     </div>
   );
