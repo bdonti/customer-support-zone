@@ -1,5 +1,6 @@
 import React, { use, useEffect, useState } from "react";
 import CustomerTicket from "../CustomerTicket/CustomerTicket";
+import PendingTickets from "../PendingTickets/PendingTickets";
 
 const CustomerTickets = ({
   ticketsPromise,
@@ -30,7 +31,7 @@ const CustomerTickets = ({
         <div className="my-2">
           <h1 className="text-2xl font-bold">Ticket Status</h1>
           {pendingTickets.length > 0 ? (
-            <p>You have {pendingTickets.length} pending tickets</p>
+           <PendingTickets pendingTickets={pendingTickets}></PendingTickets>
           ) : (
             <p>Select a ticket to add to Task Status</p>
           )}

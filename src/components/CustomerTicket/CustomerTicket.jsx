@@ -24,7 +24,7 @@ const CustomerTicket = ({
     const updatedTicket = { ...ticket, status: "Pending" };
     setPendingTickets([...pendingTickets, updatedTicket]);
 
-    toast.success("Ticket added to pending status!");
+    toast.success("Your Ticket is now pending...");
   };
 
   const { id, title, description, customer, priority, status, createdAt } =
