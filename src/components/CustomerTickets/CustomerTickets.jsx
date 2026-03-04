@@ -1,6 +1,7 @@
 import React, { use, useState } from "react";
 import CustomerTicket from "../CustomerTicket/CustomerTicket";
 import PendingTickets from "../PendingTickets/PendingTickets";
+import ResolvedTickets from "../ResolvedTickets/ResolvedTickets";
 
 const CustomerTickets = ({
   ticketsPromise,
@@ -47,7 +48,11 @@ const CustomerTickets = ({
         </div>
         <div className="my-2">
           <h1 className="text-2xl font-bold">Resolved Task</h1>
-          <p>No Resolved task yet</p>
+          {
+            resolvedTickets.length > 0 ? (
+              <ResolvedTickets resolvedTickets={resolvedTickets}></ResolvedTickets>
+            ) : (<p>No Resolved task yet</p>)
+          }
         </div>
       </div>
     </div>
