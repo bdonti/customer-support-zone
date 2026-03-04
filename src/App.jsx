@@ -20,7 +20,7 @@ function App() {
   return (
     <>
       <Navbar></Navbar>
-      <Banner pendingTickets={pendingTickets}></Banner>
+      <Banner pendingTickets={pendingTickets} resolvedTickets={resolvedTickets}></Banner>
       <Suspense
         fallback={
           <div className="text-center mt-10">

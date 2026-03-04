@@ -1,7 +1,7 @@
 import React from "react";
 import vector1 from "../../assets/vector1.png";
 
-const Banner = ({ pendingTickets }) => {
+const Banner = ({ pendingTickets, resolvedTickets }) => {
   return (
     <div className="flex flex-col lg:flex-row justify-center items-center mt-10 gap-6 px-4">
       <div className="relative w-full max-w-xl h-48 sm:h-56 md:h-64 rounded-2xl overflow-hidden bg-gradient-to-r from-[#5B3DF5] to-[#8B6CFF] flex items-center justify-center text-white">
@@ -41,7 +41,7 @@ const Banner = ({ pendingTickets }) => {
           <p className="text-lg sm:text-xl md:text-2xl font-medium mb-2 sm:mb-4">
             Resolved
           </p>
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold">0</h1>
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold">{resolvedTickets.length}</h1>
         </div>
       </div>
     </div>
