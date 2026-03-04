@@ -1,10 +1,13 @@
+
 import React from 'react';
+import { toast } from 'react-toastify';
 
 const PendingTicket = ({ticket, setResolvedTickets, resolvedTickets, tickets, setTickets, pendingTickets, setPendingTickets}) => {
     const handleComplete = () => {
         setResolvedTickets([...resolvedTickets, ticket]);
         setTickets(tickets.filter(t => t.id !== ticket.id));
         setPendingTickets(pendingTickets.filter(t => t.id !== ticket.id));
+        toast.success("Ticket Successfully Resolved!");
     };
     return (
         <div className='space-y-2'>

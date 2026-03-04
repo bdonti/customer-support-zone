@@ -13,7 +13,7 @@ const CustomerTicket = ({
     const isAlreadyPending = pendingTickets.find((t) => t.id === ticket.id);
 
     if (isAlreadyPending) {
-      toast("This ticket is already in pending status!");
+      toast.warning("This ticket is already in pending status!");
       return;
     }
 
@@ -24,7 +24,7 @@ const CustomerTicket = ({
     const updatedTicket = { ...ticket, status: "Pending" };
     setPendingTickets([...pendingTickets, updatedTicket]);
 
-    toast.success("Your Ticket is now pending...");
+    toast.info("Your Ticket is now pending...");
   };
 
   const { id, title, description, customer, priority, status, createdAt } =
