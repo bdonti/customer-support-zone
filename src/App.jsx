@@ -14,6 +14,9 @@ const ticketsPromise = loadTickets();
 
 function App() {
   const [pendingTickets, setPendingTickets] = useState([]);
+  const [resolvedTickets, setResolvedTickets] = useState([]);
+  
+
   return (
     <>
       <Navbar></Navbar>
@@ -29,6 +32,8 @@ function App() {
           ticketsPromise={ticketsPromise}
           pendingTickets={pendingTickets}
           setPendingTickets={setPendingTickets}
+          resolvedTickets={resolvedTickets}
+          setResolvedTickets={setResolvedTickets}
         ></CustomerTickets>
       </Suspense>
       <ToastContainer />

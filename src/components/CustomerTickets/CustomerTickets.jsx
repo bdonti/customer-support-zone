@@ -1,4 +1,4 @@
-import React, { use, useEffect, useState } from "react";
+import React, { use, useState } from "react";
 import CustomerTicket from "../CustomerTicket/CustomerTicket";
 import PendingTickets from "../PendingTickets/PendingTickets";
 
@@ -6,10 +6,12 @@ const CustomerTickets = ({
   ticketsPromise,
   pendingTickets,
   setPendingTickets,
+  resolvedTickets,
+  setResolvedTickets,
 }) => {
   const initialTickets = use(ticketsPromise);
   const [tickets, setTickets] = useState(initialTickets);
-  
+
   return (
     <div className="mt-10 max-w-[1200px] mx-auto flex justify-between gap-10 px-4">
       <div>
@@ -31,7 +33,14 @@ const CustomerTickets = ({
         <div className="my-2">
           <h1 className="text-2xl font-bold">Ticket Status</h1>
           {pendingTickets.length > 0 ? (
-           <PendingTickets pendingTickets={pendingTickets}></PendingTickets>
+            <PendingTickets
+              resolvedTickets={resolvedTickets}
+              setResolvedTickets={setResolvedTickets}
+              tickets={tickets}
+              setTickets={setTickets}
+              pendingTickets={pendingTickets}
+              setPendingTickets={setPendingTickets}
+            ></PendingTickets>
           ) : (
             <p>Select a ticket to add to Task Status</p>
           )}
