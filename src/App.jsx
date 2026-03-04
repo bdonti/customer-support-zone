@@ -1,4 +1,5 @@
 import Banner from "./components/Banner/Banner"
+import CustomerTickets from "./components/CustomerTickets/CustomerTickets"
 import Navbar from "./components/Navbar/Navbar"
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
       <Navbar></Navbar>
       <Banner></Banner>
+      <CustomerTickets></CustomerTickets>
     </>
   )
 }

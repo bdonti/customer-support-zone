@@ -1,0 +1,137 @@
+[
+  {
+    "id": "TIC-1001",
+    "title": "Cannot access dashboard",
+    "description": "User reports a 404 error when attempting to log into the main analytics dashboard. Cleared cache but issue persists.",
+    "customer": "Global Corp",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "01-03-2026"
+  },
+  {
+    "id": "TIC-1002",
+    "title": "Billing discrepancy - Invoice #882",
+    "description": "Customer claims they were double-charged for the premium subscription seat additions.",
+    "customer": "Jane Smith",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "01-03-2026"
+  },
+  {
+    "id": "TIC-1003",
+    "title": "Feature Request: Dark Mode",
+    "description": "Requesting the implementation of a system-wide dark mode for the mobile application.",
+    "customer": "TechEnthusiast Ltd",
+    "priority": "Low",
+    "status": "Pending",
+    "createdAt": "01-03-2026"
+  },
+  {
+    "id": "TIC-1004",
+    "title": "API Connection Timeout",
+    "description": "Intermittent timeouts occurring on the /v1/data endpoint during peak hours.",
+    "customer": "DataFlow Systems",
+    "priority": "Critical",
+    "status": "Open",
+    "createdAt": "02-03-2026"
+  },
+  {
+    "id": "TIC-1005",
+    "title": "Password reset link not arriving",
+    "description": "Customer has requested a reset link three times; checked spam folder.",
+    "customer": "Robert Chen",
+    "priority": "High",
+    "status": "Resolved",
+    "createdAt": "02-03-2026"
+  },
+  {
+    "id": "TIC-1006",
+    "title": "Update shipping address",
+    "description": "Need to change the delivery address for order #44901 before it leaves the warehouse.",
+    "customer": "Sarah Jenkins",
+    "priority": "Medium",
+    "status": "Closed",
+    "createdAt": "02-03-2026"
+  },
+  {
+    "id": "TIC-1007",
+    "title": "Mobile app crashing on startup",
+    "description": "App closes immediately after the splash screen on iOS 17.4.",
+    "customer": "Mobile First Inc",
+    "priority": "Critical",
+    "status": "In Progress",
+    "createdAt": "03-03-2026"
+  },
+  {
+    "id": "TIC-1008",
+    "title": "Inquiry about bulk discounts",
+    "description": "Potential lead asking if there is a discount for purchasing over 500 licenses.",
+    "customer": "EduFuture University",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "03-03-2026"
+  },
+  {
+    "id": "TIC-1009",
+    "title": "Broken link in documentation",
+    "description": "The link to 'Setting up Webhooks' in the developer docs leads to a dead page.",
+    "customer": "DevOps Solutions",
+    "priority": "Low",
+    "status": "Resolved",
+    "createdAt": "03-03-2026"
+  },
+  {
+    "id": "TIC-1010",
+    "title": "Security Vulnerability Report",
+    "description": "Researcher found a potential XSS vulnerability on the user profile settings page.",
+    "customer": "Anonymous Researcher",
+    "priority": "Critical",
+    "status": "In Progress",
+    "createdAt": "04-03-2026"
+  },
+  {
+    "id": "TIC-1011",
+    "title": "Integrations not syncing",
+    "description": "Salesforce integration has stopped syncing new leads since yesterday evening.",
+    "customer": "SalesMaster Pro",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "04-03-2026"
+  },
+  {
+    "id": "TIC-1012",
+    "title": "Refund request - Service downtime",
+    "description": "Customer requesting a pro-rated refund for the 4-hour outage.",
+    "customer": "Blue Sky Agency",
+    "priority": "Medium",
+    "status": "Pending",
+    "createdAt": "04-03-2026"
+  },
+  {
+    "id": "TIC-1013",
+    "title": "Unable to upload profile picture",
+    "description": "Error 'File type not supported' appearing even when uploading standard .jpg files.",
+    "customer": "Michael Wong",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "04-03-2026"
+  },
+  {
+    "id": "TIC-1014",
+    "title": "Account verification stuck",
+    "description": "Uploaded ID documents 48 hours ago but status is still 'Pending Verification'.",
+    "customer": "Anita Desai",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "04-03-2026"
+  },
+  {
+    "id": "TIC-1015",
+    "title": "Exporting data takes too long",
+    "description": "CSV export for reports with >10,000 rows is timing out or taking over 5 minutes.",
+    "customer": "Logistics Hub",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "04-03-2026"
+  }
+]
