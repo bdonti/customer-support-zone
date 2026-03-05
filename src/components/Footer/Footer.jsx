@@ -6,7 +6,7 @@ import { MdEmail } from "react-icons/md";
 const Footer = () => {
   return (
     <div>
-      <footer className="footer sm:footer-horizontal bg-base-200 text-base-content p-10">
+      <footer className="footer sm:footer-horizontal p-10 bg-[#000] text-white">
         <nav>
           <h6 className="footer-title">CS- Ticket System</h6>
           <p className="w-[350px] mx-auto">CS- Ticket System is a modern customer support and issue tracking platform designed to help businesses manage technical, billing, and account-related requests efficiently. The dashboard provides real-time visibility into open tickets, priority levels, and customer impact, allowing teams to quickly address high-priority incidents like system outages or security vulnerabilities.</p>
@@ -38,7 +38,7 @@ const Footer = () => {
          
         </nav>
       </footer>
-      <footer className="footer bg-base-200 text-base-content border-base-300 border-t px-10 py-4 justify-center">
+      <footer className="footer border-base-300 border-t px-10 py-4 justify-center bg-[#000] text-white">
         <aside className="flex flex-col items-center justify-center text-center">
           <p>
             © 2025 CS — Ticket System. All rights reserved.

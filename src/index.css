@@ -1,6 +1,9 @@
 @import "tailwindcss";
+@import "@fontsource-variable/inter";
 @plugin "daisyui";
-
-body{
-  font-family: 'Inter', sans-serif;
+@plugin "daisyui" {
+   themes: light --default;
+}
+body {
+  font-family: "Inter Variable", sans-serif;
 }
