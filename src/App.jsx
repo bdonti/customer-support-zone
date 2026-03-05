@@ -3,6 +3,7 @@ import Banner from "./components/Banner/Banner";
 import CustomerTickets from "./components/CustomerTickets/CustomerTickets";
 import Navbar from "./components/Navbar/Navbar";
 import { ToastContainer } from "react-toastify";
+import Footer from "./components/Footer/Footer";
 
 const loadTickets = async () => {
   const res = await fetch("./tickets.json");
@@ -36,6 +37,7 @@ function App() {
           setResolvedTickets={setResolvedTickets}
         ></CustomerTickets>
       </Suspense>
+      <Footer></Footer>
       <ToastContainer />
     </>
   );
