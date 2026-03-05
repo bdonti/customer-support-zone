@@ -14,10 +14,10 @@ const CustomerTickets = ({
   const [tickets, setTickets] = useState(initialTickets);
 
   return (
-    <div className="mt-10 max-w-[1200px] mx-auto flex justify-between gap-10 px-4">
+    <div className="mt-10 max-w-[1200px] mx-auto flex flex-col-reverse md:flex-row md:justify-between gap-10 px-4">
       <div>
         <h1 className="text-2xl">Customer Tickets</h1>
-        <div className="grid grid-cols-2 items-center gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-4">
           {tickets.map((ticket) => (
             <CustomerTicket
               key={ticket.id}
